@@ -3,6 +3,7 @@ import "@nomicfoundation/hardhat-toolbox";
 import "dotenv/config";
 
 const LISK_RPC_URL = process.env.LISK_RPC_URL || "";
+const API_KEY = process.env.API_KEY || "";
 
 type HttpNetworkAccountsUserConfig = any;
 const config: HardhatUserConfig = {
