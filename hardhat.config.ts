@@ -6,7 +6,7 @@ const LISK_RPC_URL = process.env.LISK_RPC_URL || "";
 const API_KEY = process.env.API_KEY || "";
 
 type HttpNetworkAccountsUserConfig = any;
-const config: HardhatUserConfig = {
+module.exports = {
   solidity: "0.8.24",
   networks: {
     // for testnet
@@ -16,6 +16,23 @@ const config: HardhatUserConfig = {
       gasPrice: 1000000000,
     },
   },
-};
+  sourcify: {
+    enabled: true,
+  },
 
-export default config;
+  etherscan: {
+    apiKey: {
+      "lisk-sepolia": "123",
+    },
+    customChains: [
+      {
+        network: "lisk-sepolia",
+        chainId: 4202,
+        urls: {
+          apiURL: "https://sepolia-blockscout.lisk.com/api",
+          browserURL: "https://sepolia-blockscout.lisk.com",
+        },
+      },
+    ],
+  },
+};
