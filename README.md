@@ -4,7 +4,8 @@ Welcome to the Prosure smart contract repository! This document provides an over
 
 ## Architecture Design
 
-Understanding this design is crucial to understanding the contracts
+Understanding this design is crucial to understanding the contracts!
+
 ![Prosure Architecture Design](./assests/contract-design.jpg)
 
 ## Smart Contract Addresses
@@ -15,7 +16,7 @@ Understanding this design is crucial to understanding the contracts
 
 ## Verify Contracts
 
-NOTE: this contract addresses are deployed and verified on Lisk testnet.
+NOTE: this contract addresses are deployed and verified on `Lisk` testnet.
 
 - [Verify MUSDT Contract link](https://sepolia-blockscout.lisk.com/address/0x934932752EDDeb6150e412E04D747bd974164A7d?tab=read_contract)
 - [Verify insure Contract link](https://sepolia-blockscout.lisk.com/address/0xFCB01529892bF14daCf90cc4B00184133cB07339?tab=write_contract)
@@ -24,8 +25,11 @@ NOTE: this contract addresses are deployed and verified on Lisk testnet.
 ## Frontend
 
 Check out the Prosure frontend [here](https://prosure-frontend.vercel.app/).
-![Frontend Page](./assests/contract-design.jpg)
+
+![Frontend Page](./assests/landingPage.jpg)
+
 ![Dashboard Page](./assests/dashboard.jpg)
+
 ![Insure Page](./assests/InsurePage.jpg)
 
 ## About Prosure
@@ -74,13 +78,13 @@ Members cannot leave the DAO within 30 days of joining.
 
 ## Calculations
 
-    Cover calculation formula:
+Cover calculation formula:
 
-`cover = ((RISK_LEVEL + 25) * (_coverPeriod * _coverAmount)) / ((PERCENTAGE) * YEAR)`
+    cover = ((RISK_LEVEL + 25) * (_coverPeriod * _coverAmount)) / ((PERCENTAGE) * YEAR)
 
-    Vote power calculation formula:
+Vote power calculation formula:
 
-`VotePower = (joinAmount * 1e6) / DAOMinimumAmount`
+    VotePower = (joinAmount * 1e6) / DAOMinimumAmount
 
 ## Conclusion
 
