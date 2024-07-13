@@ -26,12 +26,6 @@ NOTE: this contract addresses are deployed and verified on `Rootstock` testnet.
 
 Check out the Prosure frontend [here](https://prosure-frontend.vercel.app/).
 
-![Frontend Page](./assests/landingPage.jpg)
-
-![Dashboard Page](./assests/dashboard.jpg)
-
-![Insure Page](./assests/InsurePage.jpg)
-
 ## About Prosure
 
 Today, numerous users have been left without compensation for their losses as a result of the hundreds of DeFi hacks that have occurred over the past two years, costing billions of dollars.
