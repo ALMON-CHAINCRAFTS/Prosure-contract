@@ -10,17 +10,17 @@ Understanding this design is crucial to understanding the contracts!
 
 ## Smart Contract Addresses
 
-- **MUSDT**: `0x934932752EDDeb6150e412E04D747bd974164A7d`
-- **insure**: `0xFCB01529892bF14daCf90cc4B00184133cB07339`
-- **Governance**: `0x054aC154CF6c757697B290fB7A824B6aC2262F82`
+- **MUSDT**: `0x428B2A32171157C9A67b5e5283fd00Ca42fd54FE`
+- **insure**: `0x1A26f543e0c7E478C7D998109c0ACf7dB1827a6d`
+- **Governance**: `0xFeCe593B6eB317f4fD94804264742b092B4566c6`
 
 ## Verify Contracts
 
-NOTE: this contract addresses are deployed and verified on `Lisk` testnet.
+NOTE: this contract addresses are deployed and verified on `Rootstock` testnet.
 
-- [Verify MUSDT Contract link](https://sepolia-blockscout.lisk.com/address/0x934932752EDDeb6150e412E04D747bd974164A7d?tab=read_contract)
-- [Verify insure Contract link](https://sepolia-blockscout.lisk.com/address/0xFCB01529892bF14daCf90cc4B00184133cB07339?tab=write_contract)
-- [Verify Governance Contract link](https://sepolia-blockscout.lisk.com/address/0x054aC154CF6c757697B290fB7A824B6aC2262F82?tab=read_contract)
+- [Verify MUSDT Contract link](https://rootstock-testnet.blockscout.com/address/0x428B2A32171157C9A67b5e5283fd00Ca42fd54FE?tab=write_contract)
+- [Verify insure Contract link](https://rootstock-testnet.blockscout.com/address/0x1A26f543e0c7E478C7D998109c0ACf7dB1827a6d?tab=write_contract)
+- [Verify Governance Contract link](https://rootstock-testnet.blockscout.com/address/0xFeCe593B6eB317f4fD94804264742b092B4566c6?tab=write_contract)
 
 ## Frontend
 
