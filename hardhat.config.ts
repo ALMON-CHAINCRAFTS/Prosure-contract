@@ -1,8 +1,9 @@
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
+import "@nomicfoundation/hardhat-verify";
 import "dotenv/config";
 
-const LISK_RPC_URL = process.env.LISK_RPC_URL || "";
+const RPC_URL = process.env.RPC_URL || "";
 const API_KEY = process.env.API_KEY || "";
 
 type HttpNetworkAccountsUserConfig = any;
@@ -10,8 +11,8 @@ module.exports = {
   solidity: "0.8.24",
   networks: {
     // for testnet
-    "lisk-sepolia": {
-      url: LISK_RPC_URL,
+    rskTestnet: {
+      url: RPC_URL,
       accounts: [process.env.WALLET_KEY as string],
       gasPrice: 1000000000,
     },
@@ -22,16 +23,16 @@ module.exports = {
 
   etherscan: {
     apiKey: {
-      "lisk-sepolia": "123",
+      rskTestnet: API_KEY,
     },
     customChains: [
       {
-        network: "lisk-sepolia",
-        chainId: 4202,
-        urls: {
-          apiURL: "https://sepolia-blockscout.lisk.com/api",
-          browserURL: "https://sepolia-blockscout.lisk.com",
-        },
+        network: "rskTestnet",
+        chainId: 31,
+         urls: {
+              apiURL: "https://rootstock-testnet.blockscout.com/api/",
+              browserURL: "https://rootstock-testnet.blockscout.com/",
+            },
       },
     ],
   },

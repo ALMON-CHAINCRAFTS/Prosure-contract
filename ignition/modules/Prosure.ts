@@ -6,7 +6,7 @@ import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 const _minimumJoinDAO: bigint = 10_000_000_000_000_000_000_000n;
 const _maximumJoinDAO: bigint = 100_000_000_000_000_000_000_000n;
 
-const ProsureModule = buildModule("ProsureModule", (m) => {
+const ProsureModule = buildModule("ProsureModule", (m: any) => {
   //   const unlockTime = m.getParameter("unlockTime", JAN_1ST_2030);
   //   const lockedAmount = m.getParameter("lockedAmount", ONE_GWEI);
 
